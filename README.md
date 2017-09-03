@@ -5,4 +5,4 @@ A sample app using firebase to login through mobile number.
 
 
 used lib:  
-    compile 'com.github.devlight.pulseview:library:1.0.2'
+    https://github.com/Devlight/PulseView
