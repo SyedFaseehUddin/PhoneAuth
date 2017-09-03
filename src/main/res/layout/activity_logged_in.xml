@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003366"
+    tools:context="com.syed.faseeh.phoneauth.LoggedIn">
+
+    <com.gigamole.library.PulseView
+        android:id="@+id/pv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pv_alpha="70"
+        app:pv_color="#FFF"
+        app:pv_icon="@drawable/customeri"
+        app:pv_icon_height="70dp"
+        app:pv_icon_width="70dp"
+        app:pv_measure="height"
+        app:pv_spawn_period="500"
+        app:pv_interpolator="@android:anim/linear_interpolator"/>
+
+    <LinearLayout
+        android:id="@+id/signed_in_buttons"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:theme="@style/ThemeOverlay.MyDarkButton" />
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_gravity="center"
+            style="@style/ThemeOverlay.MyTextDetail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccent"
+            android:text="Logged in !" />
+    </LinearLayout>
+
+</FrameLayout>

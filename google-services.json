@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "692672021148",
+    "firebase_url": "https://phoneauth-decc4.firebaseio.com",
+    "project_id": "phoneauth-decc4",
+    "storage_bucket": "phoneauth-decc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692672021148:android:baabfeac14ef489f",
+        "android_client_info": {
+          "package_name": "com.syed.faseeh.phoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692672021148-ipia42fskd4rcpu614o0skoam1m1o7gg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.syed.faseeh.phoneauth",
+            "certificate_hash": "766128d76ba16334762340851fdb29e50c6c59b2"
+          }
+        },
+        {
+          "client_id": "692672021148-glhh6vs1vsti5u56m2t6vfhj4m8f61u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS8hZmVqUBgBSJ4BR2uLTteM5VD5Hz070"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692672021148-glhh6vs1vsti5u56m2t6vfhj4m8f61u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
